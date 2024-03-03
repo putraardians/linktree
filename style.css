@@ -1,0 +1,127 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ html {
+   font-family: Oswald, Decorative;
+ }
+
+ .total {
+   margin: 0 auto;
+   background: black;
+   height: 100vh;
+   background-image: url("download.gif");
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+
+ .song {
+   visibility: hidden;
+ }
+
+ .profile {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   font-family: 'Poppins', sans-serif;
+   
+ }
+
+ .profile>img {
+   width: 100px;
+   height: 100px;
+   border-radius: 100%;
+   border: 3px solid #ffffff;
+   margin: 1000 auto
+     /* Menggeser gambar ke tengah secara horizontal */
+ }
+
+
+.profile>p {
+  font-size: 1.8em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  background-image: url('donwload2.gif'); 
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  color: #ffffff;
+  background-color: #eaeaea;
+  border: 3px solid #ffffff;
+  margin-top: 5px; /* Menambahkan jarak ke bawah */
+}
+
+ .link {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 20px;
+ }
+
+ .link>a {
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 17px;
+  background-image: url('donwload2.gif'); 
+   text-align: center;
+   border: 3px solid #ffffff;
+   background-color: #ffffff;
+   border-radius: 7px;
+   margin: 5px 10px;
+   padding: 10px;
+   text-transform: uppercase;
+   font-weight: 500;
+ }
+
+ .link>a:hover {
+   background-color: azure;
+ }
+
+ .footer {
+  text-align: center;
+  background-color: #2e2d2d;
+  color: white;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+ .footer>i {
+   color: white;
+   font-size: 40px;
+ }
+
+ .lagu {
+   display: flex;
+   margin-right: 50PX;
+ }
+
+ .link a {
+   display: flex;
+   /* Membuat tautan menjadi kontainer fleksibel */
+   align-items: center;
+   /* Mengatur vertikal ke tengah */
+ }
+
+ .icon {
+   width: auto;
+   /* Ukuran gambar ikon */
+   height: 30px;
+   /* Jarak antara gambar dan teks */
+   margin-right: 10px;
+   /* Jarak antara ikon dan teks */
+ }
+
+/* CSS untuk mengatur gambar latar belakang */
+.swal2-popup-custom {
+  background-image: url('donwload2.gif'); /* Ganti dengan URL gambar latar belakang Anda */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff; /* Warna teks di atas gambar, sesuaikan dengan preferensi Anda */
+}
